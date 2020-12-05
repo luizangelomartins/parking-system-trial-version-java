@@ -10,6 +10,7 @@ package parkingsystem;
 
 
 // IMPORTAÇÃO DE BIBLIOTECAS:
+import funcoes.CalculoTempo;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -21,6 +22,7 @@ public class Menu {
     // DECLARAÇÃO DE VARIAVEIS E OBJETOS:
     int repetir = 0;
     int escolha_usuario = 0;
+    CalculoTempo calculo_de_valores = new CalculoTempo();
     
     
     // FUNÇÃO PARA EXIBIR O MENU:
@@ -50,6 +52,7 @@ public class Menu {
 
                     // CASO "1" - CARRO:
                     case 1:
+                        calculo_de_valores.tempo();
                     break;
 
                     // CASO "2" - MOTO:
