@@ -18,7 +18,6 @@ public class CalculoTempo {
     
     // DECLARAÇÃO DE VARIAVEIS:
     double aux1 = 0;
-    double aux2 = 0;
     double valor_hora = 0;
     double hora_inicial = 0;
     double hora_final = 0;
