@@ -57,6 +57,7 @@ public class Menu {
 
                     // CASO "2" - MOTO:
                     case 2:
+                        calculo_de_valores.tempo();
                     break;
 
                     default:
