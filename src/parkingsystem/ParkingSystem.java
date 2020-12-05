@@ -16,6 +16,10 @@ public class ParkingSystem {
     public static void main(String[] args) {
         
         
+        // "IMPLEMENTAÇÃO DO MENU GERAL":
+        Menu menu_geral = new Menu();
+        menu_geral.exibir_menu();
+        
         
     }
     
